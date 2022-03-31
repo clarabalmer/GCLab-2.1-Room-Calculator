@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/clarabalmer/Desktop/GC-Labs/2.1-Room-Calculator/.metadata/.plugins/org.eclipse.jdt.core
+1816963510.index
+1865797976.index
+410267472.index

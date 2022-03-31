@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class RoomCalculator {
+
+	public static void main(String[] args) {
+		Scanner scnr = new Scanner(System.in);
+
+		System.out.println("Hello, user!");
+		boolean repeat = true;
+		
+		while (repeat) {
+			System.out.print("Enter the length of the room in feet: ");
+			double length = scnr.nextDouble();
+			System.out.print("Enter the width of the room in feet: ");
+			double width = scnr.nextDouble();
+			
+			double area = length * width;
+			double perimeter = length + length + width + width;
+			
+			System.out.println("The area of the room is " + area + ".");
+			System.out.println("The perimeter of the room is " + perimeter + ".");
+			System.out.println("Would you like to calculate another room's dimensions? y/n");
+			String answer = scnr.next();
+			if (answer.equals("y") || answer.equals("Y")) {
+			} else {
+				repeat = false;
+			}
+		}
+		
+		
+		
+	}
+
+}

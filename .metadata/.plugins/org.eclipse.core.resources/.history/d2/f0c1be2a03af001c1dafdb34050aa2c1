@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class RoomCalculator {
+
+	public static void main(String[] args) {
+		Scanner scnr = new Scanner(System.in);
+
+		System.out.println("Hello, user!");
+		System.out.println("Enter the length of the room in feet: ");
+		double length = scnr.nextDouble();
+		System.out.println("Enter the width of the room in feet: ");
+		double width = scnr.nextDouble();
+		
+		System.out.println();
+		System.out.println("The area of the room is " + length * width + ".");
+		System.out.println("The perimeter of the room is " + length + length + width + width + ".");
+		
+	}
+
+}
